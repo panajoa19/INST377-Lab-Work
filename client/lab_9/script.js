@@ -237,7 +237,6 @@ async function mainEvent() {
       // And this function call will perform the "side effect" of injecting the HTML list for you
       injectHTML(currentList);
       changeChart(myChart, localData)
-      // markerPlace(currentList, pageMap);
 
       // By separating the functions, we open the possibility of regenerating the list
       // without having to retrieve fresh data every time
